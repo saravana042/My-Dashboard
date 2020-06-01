@@ -23,7 +23,7 @@
                     width: 9px;
                     height: 9px;
                     border-radius: 100%;
-                    background-color: #1bc943;
+                    background-color: $Malachite;
                     animation: .9s infinite beatHeart;
                     transform-origin: center;
                 }
@@ -66,7 +66,7 @@
         .total-amount{
             margin: 0px;
             font-weight: 400;
-            color: #11ace7;
+            color: $CuriousBlue;
             font-size: 1.5em;
         }
         h4{
