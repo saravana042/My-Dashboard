@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "title": "Pay now",
+        "color": "curiousBlue",
+        "icon": "attach_money",
+        "IconForDesign": "arrow_forward"
+    },
+    {
+        "id": 2,
+        "title": "View last bill",
+        "color": "tealBlue",
+        "icon": "assignment",
+        "IconForDesign": "arrow_downward"
+    },
+    {
+        "id": 3,
+        "title": "Direct debit",
+        "color": "clementine",
+        "icon": "credit_card",
+        "IconForDesign": "arrow_forward"
+    },
+    {
+        "id": 4,
+        "title": "Payment extension",
+        "color": "brightGray",
+        "icon": "people",
+        "IconForDesign": "arrow_forward"
+    },
+    {
+        "id": 5,
+        "title": "Payment arrangement",
+        "color": "seance",
+        "icon": "slow_motion_video",
+        "IconForDesign": "arrow_forward"
+    },
+    {
+        "id": 6,
+        "title": "Explore our energy tool",
+        "color": "bondiBlue",
+        "icon": "settings",
+        "IconForDesign": "arrow_forward"
+    }
+]

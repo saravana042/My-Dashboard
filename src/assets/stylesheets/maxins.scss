@@ -1,0 +1,17 @@
+@mixin clearfix {
+    &::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+@mixin gradient-45deg-indigo-purple {
+    background-image: -webkit-linear-gradient(45deg,#303f9f,#7b1fa2);
+    background-image: linear-gradient(45deg,#303f9f,#7b1fa2); 
+}
+
+@mixin transition-2s-ease{
+    -webkit-transition: color .2s ease;
+    transition: color .2s ease;
+}

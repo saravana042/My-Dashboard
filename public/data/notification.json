@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "title": "Received an email",
+        "time": "2 hours ago",
+        "icon": "email",
+        "color": "cyan"
+    },
+    {
+        "id": 2,
+        "title": "Bill paid",
+        "time": "3 hours ago",
+        "icon": "stars",
+        "color": "red"
+    },
+    {
+        "id": 3,
+        "title": "Settings updated",
+        "time": "4 hours ago",
+        "icon": "settings",
+        "color": "teal"
+    }
+]

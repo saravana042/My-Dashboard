@@ -1,0 +1,56 @@
+.header{
+    
+    height:60px;
+    width:100%;
+    
+    &--menu{
+        margin:0px;
+        padding:0px;
+        .navbar {
+            position: relative;
+            z-index: 997;
+        }
+        li{
+            float:left;
+            a{
+                color: $White;
+                padding: 0px 25px;
+            }
+            .avatar--cntr{
+                padding: 10px 20px;
+    
+                span{
+                    position: relative;
+                    height: 40px;
+                    width: 40px;
+                    display: block;
+                    text-align: center;
+
+                    img{
+                        width: 40px;
+                        height: 40px;
+                        text-align: center;
+                        z-index:0;
+                    } 
+                    
+                    .indicator {
+                        content: '';
+                        position: absolute;
+                        top: 30px;
+                        right: 0px;
+                        display: inline-block;
+                        width: 9px;
+                        height: 9px;
+                        border-radius: 100%;
+                        background-color:$Malachite;
+                        animation: .9s infinite beatHeart;
+                        transform-origin: center;
+                    }
+                }
+            }
+        }
+    }
+    .nav-bar-color{
+        @include gradient-45deg-indigo-purple;
+    }
+}

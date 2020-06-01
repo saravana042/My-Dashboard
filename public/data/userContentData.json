@@ -1,0 +1,48 @@
+[
+    {
+        "id": 1,
+        "title": "Account number",
+        "content": "786543567",
+        "color": "curiousBlue",
+        "icon": "account_circle"
+    },
+    {
+        
+        "id": 2,
+        "title": "Plan",
+        "content": "Home plan (A1)",
+        "color": "tealBlue",
+        "icon": "assignment"
+    },
+    {
+        "id": 3,
+        "title": "Address",
+        "content": "unit 24, 34 willams street, Perth",
+        "contentExt": "WA - 6000",
+        "color": "clementine",
+        "icon": "location_on"
+    },
+    {
+        "id": 4,
+        "title": "No of Accounts",
+        "content": "2",
+        "color": "brightGray",
+        "icon": "people"
+    },
+    {
+        
+        "id": 5,
+        "title": "Meter Installed ?",
+        "content": "No",
+        "color": "seance",
+        "icon": "slow_motion_video"
+    },
+    {
+        
+        "id": 6,
+        "title": "Hardship program ?",
+        "content": "No",
+        "color": "bondiBlue",
+        "icon": "thumb_up"
+    }
+]

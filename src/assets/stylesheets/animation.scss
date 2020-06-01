@@ -1,0 +1,32 @@
+@keyframes beatHeart {
+    0% { transform: scale(0.9); }
+    25% { transform: scale(1.1); }
+    40% { transform: scale(0.9); }
+    60% { transform: scale(1.1); }
+    100% { transform: scale(0.9); }
+}
+@-webkit-keyframes beatHeart {
+    0% { transform: scale(0.9); }
+    25% { transform: scale(1.1); }
+    40% { transform: scale(0.9); }
+    60% { transform: scale(1.1); }
+    100% { transform: scale(0.9); }
+}
+  
+  
+@-webkit-keyframes progress-bar-stripes {
+    from {
+      background-position: 40px 0;
+    }
+    to {
+      background-position: 0 0;
+    }
+  }
+  @keyframes progress-bar-stripes {
+    from {
+      background-position: 40px 0;
+    }
+    to {
+      background-position: 0 0;
+    }
+  }

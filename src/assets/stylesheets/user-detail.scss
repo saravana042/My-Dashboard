@@ -1,0 +1,85 @@
+.user{
+    &--card-image{
+        padding: 15px;
+        border-bottom: 1px solid rgba(160,160,160,0.2);
+        &--avatar{
+            width:100px;
+            height:100px;
+            margin: auto auto 10px;
+            span{
+                display:inline-block;
+                position:relative;
+                img{
+                    &.circle{
+                        border-radius: 50%;
+                    }
+                }
+                .indicator{
+                    content: '';
+                    position: absolute;
+                    top: 82px;
+                    right: 11px;
+                    display: inline-block;
+                    width: 9px;
+                    height: 9px;
+                    border-radius: 100%;
+                    background-color: #1bc943;
+                    animation: .9s infinite beatHeart;
+                    transform-origin: center;
+                }
+            }
+        }
+    }
+
+    &--card-content{
+        border-bottom:1px solid rgba(160, 160, 160, 0.2);
+        &-left, &-right{
+            width: 50%;
+            display: inline-block;
+            padding: 10px 15px;
+            p{
+                margin:0px;
+                line-height:28px;
+                &.title{
+                    margin: 0px;
+                    line-height: 28px;
+                    font-size:0.9em;
+                }
+                &.amount{
+                    font-size: 1.3em;
+                    font-weight: 400;
+                }
+            }
+        }
+        &-left{
+            border-right: 1px solid rgba(160,160,160,0.2);
+        }
+    }
+    &--progress{
+        padding: 0px;
+    }
+    &--card-inner-content{
+        padding: 15px 15px 0px;
+        .title{
+            margin: 0px;
+        }
+        .total-amount{
+            margin: 0px;
+            font-weight: 400;
+            color: #11ace7;
+            font-size: 1.5em;
+        }
+        h4{
+            font-size: 1.3em;
+            margin-top: 0.9em;
+        }
+    }
+
+    &--title{
+        p{
+            font-size: 1.3em;
+            margin: 0px;
+            font-weight:400;
+        }
+    }
+}

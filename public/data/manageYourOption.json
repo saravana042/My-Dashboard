@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "title": "Direct debit",
+        "link": "Set up",
+        "color": "curiousBlue",
+        "icon": "credit_card"
+    },
+    {
+        "id": 2,
+        "title": "Paperless",
+        "link": "Modify",
+        "color": "tealBlue",
+        "icon": "receipt"
+    },
+    {
+        "id": 3,
+        "title": "Green energy",
+        "link": "Register",
+        "color": "clementine",
+        "icon": "nature"
+    },
+    {
+        "id": 4,
+        "title": "Concession",
+        "link": "Modify",
+        "color": "brightGray",
+        "icon": "local_atm"
+    },
+    {
+        "id": 5,
+        "title": "Renewable energy system",
+        "link": "Apply to connect",
+        "color": "seance",
+        "icon": "nature"
+    },
+    {
+        "id": 6,
+        "title": "Automated REBS payment",
+        "link": "Set up",
+        "color": "bondiBlue",
+        "icon": "loop"
+    },
+    {
+        "id": 7,
+        "title": "Moving home",
+        "link": "Get started",
+        "color": "seance",
+        "icon": "home"
+    }
+]

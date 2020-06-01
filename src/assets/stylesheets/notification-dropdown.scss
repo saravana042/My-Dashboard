@@ -1,0 +1,38 @@
+.header--menu{
+    #notifications-dropdown {
+        width: 300px;
+        li {
+            font-size: 1rem;
+            padding: 8px 16px;
+            &:first-child{
+                padding: 16px;
+            }
+           &.divider {
+                padding: 0;
+            }
+            time {
+                font-size: .8rem;
+                font-weight: 400;
+                position: relative;
+                top: -4px;
+                margin-left: 38px;
+            }
+            a{
+                font-size: 1.1rem;
+                font-weight: 300;
+                padding: 0;
+                &:hover{
+                    background-color: transparent;
+                }
+                span {
+                    font-size: 1.2rem;
+                    position: relative;
+                    top: 4px;
+                    display: inline-block;
+                    margin-right: 5px;
+                }
+            }
+        }
+        
+    }
+}
